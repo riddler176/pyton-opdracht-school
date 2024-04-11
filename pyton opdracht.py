@@ -78,11 +78,15 @@ def main():
             print("Load Average (1m, 5m, 15m): {:.2f}, {:.2f}, {:.2f}".format(load_avg_1, load_avg_5, load_avg_15))
             print("Running Processes: {}".format(num_processes))
             print("CPU Temperature: {}".format(cpu_temp))
+            print ("cas de ridder")
+
             print("---------------------------------------------- (CTRL + C to exit)", end="", flush=True)
             time.sleep(1)
+          
     except KeyboardInterrupt:
         print("\nMonitoring stopped.")
 
 if __name__ == "__main__":
     main()
-#cas de ridder
+
+           
